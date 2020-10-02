@@ -390,6 +390,7 @@ p.color {
 p.harga {
   margin: 0;
   font-size: .6rem;
+  color:#fff;
 }
 
 .domain-search {
