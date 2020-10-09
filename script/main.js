@@ -7,7 +7,7 @@ toggleButon.addEventListener('click', () => {
   navIcon.classList.toggle('open')
 });
 // Nav Active
-const nav_link = document.querySelectorAll('.nav-link');
+const nav_link = document.querySelectorAll('a');
 const section = {
   home: document.querySelector('#home'),
   service: document.querySelector('#service'),
@@ -40,7 +40,7 @@ window.addEventListener('scroll', () => {
 })
 
 // Scroll nav-link
-const navLink = document.querySelectorAll('nav a');
+const navLink = document.querySelectorAll('a');
 for (l of navLink) {
   l.addEventListener('click', function (e) {
     const tujuan = this.getAttribute('href');
@@ -55,7 +55,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date('Oct 09, 2020 00:00:00').getTime(),
+let countDown = new Date('Oct 11, 2020 00:00:00').getTime(),
   x = setInterval(function () {
 
     let
